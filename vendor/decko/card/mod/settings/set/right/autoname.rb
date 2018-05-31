@@ -1,3 +1,0 @@
-def history?
-  false
-end
