@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-ChainreactDocs::Application.load_tasks
+DeckoOrg::Application.load_tasks
