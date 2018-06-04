@@ -19,3 +19,6 @@
 config/application.rb
 config/deploy**
 config/*.yml
+
+/backups
+/public/*
