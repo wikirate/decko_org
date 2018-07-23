@@ -20,7 +20,7 @@ namespace :deploy do
     on roles(:app) do
       within release_path do
         execute :bundle, :exec, :rake, "decko:reset_cache"
-        execute :bundle, :exec, :rake, "card:refresh_machine_output"
+        # execute :bundle, :exec, :rake, "card:refresh_machine_output"
       end
     end
   end
