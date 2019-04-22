@@ -3,4 +3,5 @@
 	url = https://github.com/decko-commons/card-mods.git
 [submodule "vendor/decko"]
 	path = vendor/decko
-	url = https://github.com/decko-commons/decko.git
+	url = https://github.com/decko-commons/decko
+        branch = perform
