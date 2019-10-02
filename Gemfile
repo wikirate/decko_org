@@ -13,6 +13,9 @@ end
 gem 'mysql2', '< 0.5'
 gem 'dalli'
 
+gem "ed25519", "~>1.2"
+gem "bcrypt_pbkdf", "~>1.0"
+
 gem "newrelic_rpm"
 gem "card-mod-new_relic", path: "./vendor/card-mods/new_relic"
 
