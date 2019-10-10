@@ -110,9 +110,6 @@ GEM
       capistrano (~> 3.7)
     capistrano-passenger (0.2.0)
       capistrano (~> 3.0)
-    capistrano-rvm (0.1.2)
-      capistrano (~> 3.0)
-      sshkit (~> 1.2)
     card-mod-markdown (0.4)
       kramdown
     carrierwave (1.2.2)
@@ -523,7 +520,6 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-git-with-submodules (~> 2.0)
   capistrano-passenger
-  capistrano-rvm
   card!
   card-mod-new_relic!
   cardname!
