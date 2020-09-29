@@ -20,7 +20,6 @@ group :production do
   gem "daemons"
 end
 
-
 # CARD MODS
 # The easiest way to change card behaviors is with card mods. To install a mod:
 #
@@ -42,6 +41,13 @@ gem "card-mod-profile", group: :profile
 gem "card-mod-cypress", group: %i[cypress test]
 gem "card-mod-spring", group: %i[test development]
 
+group :development do
+  gem "capistrano"
+  gem "capistrano-bundler"
+  gem 'capistrano-git-with-submodules', '~> 2.0'
+  #gem "capistrano-maintenance", require: false
+  gem "capistrano-passenger"
+end
 
 # The following allows simple (non-gem) mods to specify gems via a Gemfile.
 # You may need to alter this code if you move such mods to an unconventional location.
