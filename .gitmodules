@@ -1,10 +1,9 @@
 [submodule "vendor/card-mods"]
 	path = vendor/card-mods
-	url = https://github.com/decko-commons/card-mods.git
+	url = git@github.com:decko-commons/card-mods.git
 [submodule "vendor/decko"]
 	path = vendor/decko
-	url = https://github.com/decko-commons/decko
-        branch = perform
+	url = git@github.com:decko-commons/decko.git
 [submodule "vendor/decko-cap"]
 	path = vendor/decko-cap
 	url = git@github.com:decko-commons/decko-cap.git

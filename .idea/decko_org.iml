@@ -13,6 +13,11 @@
       <excludeFolder url="file://$MODULE_DIR$/log" />
       <excludeFolder url="file://$MODULE_DIR$/public" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/decko/card-mod-bootstrap/vendor/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/decko/card-mod-bootstrap/vendor/bootstrap-colorpicker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/decko/card-mod-bootstrap/vendor/bootswatch" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/decko/card-mod-bootstrap/vendor/select2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/decko/doc" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
