@@ -33,7 +33,7 @@ else
 end
 
 gem 'mysql2', '< 0.5'
-gem "dalli", group :production
+gem "dalli", group: :production
 
 
 # The following allows simple (non-gem) mods to specify gems via a Gemfile.
