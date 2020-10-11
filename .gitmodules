@@ -5,3 +5,6 @@
 	path = vendor/decko
 	url = https://github.com/decko-commons/decko
         branch = perform
+[submodule "vendor/decko-cap"]
+	path = vendor/decko-cap
+	url = git@github.com:decko-commons/decko-cap.git
