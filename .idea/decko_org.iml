@@ -19,7 +19,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/decko/card-mod-bootstrap/vendor/select2" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/decko/doc" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="chruby: ruby-2.6.3" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.1, chruby: ruby-2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dalli (v2.7.11, chruby: ruby-2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.5.3, chruby: ruby-2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yard (v0.9.25, chruby: ruby-2.6.3) [gem]" level="application" />
   </component>
 </module>
