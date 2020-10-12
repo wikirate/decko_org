@@ -402,6 +402,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    yard (0.9.25)
     zeitwerk (2.4.0)
 
 PLATFORMS
@@ -416,6 +417,7 @@ DEPENDENCIES
   decko!
   decko-cap!
   mysql2 (> 0.4)
+  yard
 
 BUNDLED WITH
    1.17.3

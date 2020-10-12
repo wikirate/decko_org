@@ -1,0 +1,11 @@
+namespace :deploy do
+  desc "restart yard server"
+  after :published, :restart_yard_server do
+    on roles(:app) do
+      within release_path do
+        execute "pgrep -f yard | xargs kill -9"
+        execute :yard, :server, "-d"
+      end
+    end
+  end
+end

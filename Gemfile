@@ -34,6 +34,7 @@ end
 
 gem "mysql2", "> 0.4"
 gem "dalli", group: :production
+gem "yard"
 
 
 # The following allows simple (non-gem) mods to specify gems via a Gemfile.
