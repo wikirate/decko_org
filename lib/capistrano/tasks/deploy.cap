@@ -2,9 +2,9 @@ namespace :deploy do
   desc "restart yard server"
   after :published, :restart_yard_server do
     on roles(:app) do
-      within release_path do
+      within "#{release_path}/vendor/decko" do
         execute "pgrep -f yard | xargs kill -9"
-        execute :yard, :server, "-d"
+        execute :rvm, :default, :do, "yard server -d --bind docs.decko.org"
       end
     end
   end
