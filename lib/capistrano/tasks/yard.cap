@@ -1,0 +1,7 @@
+namespace :yard do
+  desc "restart yard server"
+  after :published, :restart_yard_server do
+    execute "pgrep -f yard | xargs kill -9"
+    execute :yard, :server, "-d"
+  end
+end

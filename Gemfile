@@ -32,7 +32,7 @@ else
   # gem "decko-spring", group: %i[test development]
 end
 
-gem 'mysql2', '< 0.5'
+gem "mysql2", "> 0.4"
 gem "dalli", group: :production
 
 
