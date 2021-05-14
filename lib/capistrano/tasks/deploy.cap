@@ -3,7 +3,7 @@ namespace :deploy do
   after :published, :restart_yard_server do
     on roles(:app) do
       within "#{release_path}/vendor/decko" do
-        execute "pgrep -f yard | xargs kill -9"
+        execute "pgrep -f docs.decko.org:8808 | xargs kill -9"
         execute :rvm, :default, :do, "yard server -d --bind docs.decko.org"
       end
     end
