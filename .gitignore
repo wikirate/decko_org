@@ -21,3 +21,6 @@ config/deploy**
 config/*.yml
 
 /backups
+/public
+/.idea
+

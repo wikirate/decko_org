@@ -15,7 +15,7 @@ else
   #   3. run `decko update` to make any needed changes to your deck
   #
   # The "defaults" includes a lot of functionality that is needed in standard decks.
-  gem "card-mod-defaults"
+  gem "card-mod-defaults", path: "./vendor/decko/mod"
   gem "card-mod-delayed_job"
 
   gem "card-mod-new_relic", path: "./vendor/card-mods"
