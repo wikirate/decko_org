@@ -1,7 +1,7 @@
 PATH
   remote: vendor/card-mods
   specs:
-    card-mod-new_relic (1.1)
+    card-mod-new_relic (0.1)
       card
       decko
       newrelic_rpm
