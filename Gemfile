@@ -15,8 +15,11 @@ else
   #   3. run `decko update` to make any needed changes to your deck
   #
   # The "defaults" includes a lot of functionality that is needed in standard decks.
-  gem "card-mod-defaults", path: "./vendor/decko/mod"
-  gem "card-mod-delayed_job"
+  path "./vendor/decko/mod" do
+    gem "card-mod-defaults"
+    gem "card-mod-delayed_job"
+    gem "card-mod-monkey", group: :development
+  end
 
   gem "card-mod-new_relic", path: "./vendor/card-mods"
   gem "decko-cap", path: "./vendor/decko-cap"
@@ -24,7 +27,7 @@ else
   # MONKEYS
   # You can also create your own mods. Mod developers (or "Monkeys") will want some
   # additional gems to support development and testing.
-  gem "card-mod-monkey", group: :development
+
   # gem "decko-rspec", group: :test
   # gem "decko-cucumber", group: :test
   # gem "decko-profile", group: :profile
