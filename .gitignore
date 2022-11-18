@@ -22,5 +22,4 @@ config/*.yml
 
 /backups
 /public
-.idea/**
-
+/.idea

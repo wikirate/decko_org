@@ -4,7 +4,7 @@ namespace :deploy do
     on roles(:app) do
       within "#{release_path}/vendor/decko" do
         execute :pgrep, "-f 0.0.0.0:8808 | xargs kill -9"
-        execute :yard, "server -d"
+        execute :bundle, :exec, :yard, "server -d"
       end
     end
   end

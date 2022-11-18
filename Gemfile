@@ -19,11 +19,9 @@ else
 end
 
 gem "mysql2", "> 0.4"
-gem "yard"
 
-group :development do
-  gem "puma"
-end
+gem "yard"
+gem "puma" # needed for yard and development
 
 group :production do
   gem "dalli"
