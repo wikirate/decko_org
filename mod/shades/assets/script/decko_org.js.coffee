@@ -1,4 +1,4 @@
-decko.slotReady (slot) ->
+decko.slot.ready (slot) ->
   slot.find('#decko-animated-logo').each (i) ->
     logo = new deckoLogo
     logo.createlogoCards()
@@ -14,6 +14,6 @@ toggleSidebar = ($el) ->
   else
     $el.collapse 'show'
 
-decko.slotReady (slot) ->
+decko.slot.ready (slot) ->
   toggleSidebar $('#_deckoSidebar')
   toggleSidebarOnResize $('#_deckoSidebar')
