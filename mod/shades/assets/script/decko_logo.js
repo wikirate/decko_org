@@ -1,5 +1,3 @@
-"use strict";
-
 decko.logo = function() {
     // opts = typeof opts !== 'undefined' ? opts : {};
     this.s = Snap("#decko-animated-logo");
@@ -25,7 +23,7 @@ decko.logo = function() {
 
 }
 
-var _deckoLogo = deckoLogo.prototype;
+var _deckoLogo = decko.logo.prototype;
 var logoCards = new Array(4);
 
 _deckoLogo.createlogoCards = function() {
