@@ -1,6 +1,6 @@
 "use strict";
 
-var deckoLogo = function() {
+decko.logo = function() {
     // opts = typeof opts !== 'undefined' ? opts : {};
     this.s = Snap("#decko-animated-logo");
     this.rotationDegrees = ['r345', 'r332', 'r318', 'r308'];
