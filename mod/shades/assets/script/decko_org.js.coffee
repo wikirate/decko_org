@@ -1,6 +1,6 @@
 decko.slot.ready (slot) ->
   slot.find('#decko-animated-logo').each (i) ->
-    logo = decko.logo()
+    logo = new decko.logo
     logo.createlogoCards()
     logo.animateSequence()
 
