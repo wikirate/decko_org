@@ -23,6 +23,8 @@ gem "mysql2", "> 0.4"
 gem "yard"
 gem "puma" # needed for yard and development
 
+gem "mail", "2.7.1" # 2.8.0 breaking?
+
 group :production do
   gem "dalli"
   gem "fog-aws"
