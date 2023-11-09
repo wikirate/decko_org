@@ -30,6 +30,12 @@ group :production do
   gem "fog-aws"
 end
 
+gem "fog-aws"
+gem 'net-smtp', require: false
+
+# gem 'net-pop', require: false
+# gem 'net-imap', require: false
+
 # The following allows simple (non-gem) mods to specify gems via a Gemfile.
 # You may need to alter this code if you move such mods to an unconventional location.
 # Dir.glob("mod/**/Gemfile").each { |gemfile| instance_eval File.read(gemfile) }
