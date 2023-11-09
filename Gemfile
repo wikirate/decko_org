@@ -30,7 +30,7 @@ group :production do
   gem "fog-aws"
 end
 
-gem "fog-aws"
+# gem "fog-aws"
 gem 'net-smtp', require: false
 
 # gem 'net-pop', require: false
