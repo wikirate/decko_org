@@ -329,7 +329,6 @@ GEM
     crass (1.0.6)
     daemons (1.4.1)
     dalli (3.2.6)
-    date (3.3.4)
     debug_inspector (1.1.0)
     delayed_job (4.1.11)
       activesupport (>= 3.0, < 8.0)
@@ -418,11 +417,6 @@ GEM
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     mysql2 (0.5.5)
-    net-imap (0.4.4)
-      date
-      net-protocol
-    net-pop (0.1.2)
-      net-protocol
     net-protocol (0.2.2)
       timeout
     net-scp (4.0.0)
@@ -573,8 +567,6 @@ DEPENDENCIES
   fog-aws
   mail (= 2.7.1)
   mysql2 (> 0.4)
-  net-imap
-  net-pop
   net-smtp
   puma
   yard
