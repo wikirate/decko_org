@@ -27,7 +27,6 @@ gem "mail", "2.7.1" # 2.8.0 breaking?
 
 group :production do
   gem "dalli"
-  gem "fog-aws"
 end
 
 # gem "fog-aws"
