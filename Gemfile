@@ -33,6 +33,10 @@ end
 # gem "fog-aws"
 gem 'net-smtp', require: false
 
+# VERSIONING ISSUES
+gem "ffi", "1.16.3"                  # 1.17 requires rubygems version >= 3.3.22
+
+
 # gem 'net-pop', require: false
 # gem 'net-imap', require: false
 
