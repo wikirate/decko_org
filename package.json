@@ -1,0 +1,22 @@
+{
+  "name": "@decko-commons/decko_org",
+  "version": "1.0.0",
+  "main": "config.ru",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decko-commons/decko_org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decko-commons/decko_org/issues"
+  },
+  "homepage": "https://github.com/decko-commons/decko_org#readme",
+  "description": ""
+}
