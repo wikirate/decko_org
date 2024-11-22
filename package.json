@@ -18,5 +18,8 @@
     "url": "https://github.com/decko-commons/decko_org/issues"
   },
   "homepage": "https://github.com/decko-commons/decko_org#readme",
-  "description": ""
+  "description": "",
+  "publishConfig": {
+    "@decko-commons:registry": "https://npm.pkg.github.com"
+  }
 }
