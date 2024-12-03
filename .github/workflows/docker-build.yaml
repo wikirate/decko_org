@@ -34,7 +34,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v6.9.0
         with:
-          repository: wikirate/wikirate
           push: true
           file: vendor/decko/docker/repos/decko-k8s.dockerfile
           tags: ${{ steps.meta.outputs.tags }}
