@@ -2,8 +2,8 @@ require File.expand_path('../boot', __FILE__)
 
 require 'decko/application'
 
-module DeckoOrg
-  class Application < Decko::Application
+module Decko
+  class Deck < Application
     # Wagn inherits Rails configuration options.  See http://guides.rubyonrails.org/configuring.html
 
     # Email configuration
