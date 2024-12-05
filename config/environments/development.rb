@@ -1,3 +1,3 @@
-Decko::Deck.configure do
+Cardio.application.class.configure do
   # config.view_cache = true
 end
